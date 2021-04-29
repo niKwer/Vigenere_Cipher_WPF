@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Cipher_Nyss", "WPF_Cipher_Nyss\WPF_Cipher_Nyss.csproj", "{1B63C3FC-8026-404C-9E53-1E3AD20A7D15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B63C3FC-8026-404C-9E53-1E3AD20A7D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B63C3FC-8026-404C-9E53-1E3AD20A7D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B63C3FC-8026-404C-9E53-1E3AD20A7D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B63C3FC-8026-404C-9E53-1E3AD20A7D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C50C221-5F2B-4C95-B1D5-ED43ACAAA8D3}
+	EndGlobalSection
+EndGlobal
