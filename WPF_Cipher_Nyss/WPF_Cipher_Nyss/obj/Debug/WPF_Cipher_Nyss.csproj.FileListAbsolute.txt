@@ -19,3 +19,45 @@ C:\Users\nikol\source\repos\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\PopupUserC
 C:\Users\nikol\source\repos\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Document.NET.dll
 C:\Users\nikol\source\repos\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Words.NET.dll
 C:\Users\nikol\source\repos\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.CopyComplete
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.exe.config
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.exe
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.pdb
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Document.NET.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Words.NET.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csprojAssemblyReference.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\MainWindow.g.cs
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\PopupUserControl.g.cs
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\App.g.cs
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss_MarkupCompile.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss_MarkupCompile.lref
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\MainWindow.baml
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\PopupUserControl.baml
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.g.resources
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.Properties.Resources.resources
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.GenerateResource.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.CoreCompileInputs.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.CopyComplete
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.exe
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.pdb
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.exe.config
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.exe
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\WPF_Cipher_Nyss.pdb
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Document.NET.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\bin\Debug\Xceed.Words.NET.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csprojAssemblyReference.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\MainWindow.g.cs
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\PopupUserControl.g.cs
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\App.g.cs
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss_MarkupCompile.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss_MarkupCompile.lref
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\MainWindow.baml
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\PopupUserControl.baml
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.g.resources
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.Properties.Resources.resources
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.GenerateResource.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.CoreCompileInputs.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.csproj.CopyComplete
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.exe
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss\obj\Debug\WPF_Cipher_Nyss.pdb

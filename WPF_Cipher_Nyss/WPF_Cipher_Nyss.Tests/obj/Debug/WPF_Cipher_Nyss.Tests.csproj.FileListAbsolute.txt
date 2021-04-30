@@ -1,0 +1,44 @@
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.Tests.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.Tests.pdb
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.exe
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Xceed.Words.NET.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Xceed.Document.NET.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.pdb
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.exe.config
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csprojAssemblyReference.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csproj.CoreCompileInputs.cache
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csproj.CopyComplete
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.dll
+E:\Downloads\Vigenere_Cipher_WPF-main (1)\Vigenere_Cipher_WPF-main\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.pdb
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.Tests.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.Tests.pdb
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.exe
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Xceed.Words.NET.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Xceed.Document.NET.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.pdb
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\WPF_Cipher_Nyss.exe.config
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csprojAssemblyReference.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csproj.CoreCompileInputs.cache
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.csproj.CopyComplete
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.dll
+C:\Users\nikol\OneDrive\Documents\GitHub\Vigenere_Cipher_WPF\WPF_Cipher_Nyss\WPF_Cipher_Nyss.Tests\obj\Debug\WPF_Cipher_Nyss.Tests.pdb

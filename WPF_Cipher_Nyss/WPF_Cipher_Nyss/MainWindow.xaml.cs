@@ -105,7 +105,7 @@ namespace WPF_Cipher_Nyss
             
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.DefaultExt = ".txt";
-            dlg.Filter = "Text files (*.txt)|*.txt|Doc file (*.docx)|*docx";
+            dlg.Filter = "Text files (*.txt)|*.txt|Docs file (*.docx)|*docx";
             Nullable<bool> result = dlg.ShowDialog();
 
             try
@@ -146,7 +146,7 @@ namespace WPF_Cipher_Nyss
             else
             {
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.Filter = "Text file (*.txt)|*.txt|Doc file (*.docx)|*.docx";
+                saveFileDialog.Filter = "Text file (*.txt)|*.txt|Doc files (*.docx)|*.docx";
                 Nullable<bool> result = saveFileDialog.ShowDialog();
                 try
                 {
@@ -191,12 +191,14 @@ namespace WPF_Cipher_Nyss
             }
             else if(TextBoxKey.Text == "")
             {
+                TextBoxMessage.Text = "Please write the key";
+                TextBoxMessage.Visibility = Visibility.Visible;
                 TextBoxKey.Tag = "Please write the key";
             }
             else
             {
                 string messageString = "";
-                TextBoxFinal.Text = VigenereCalc.Coding(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
+                TextBoxFinal.Text = VigenereCalc.Encrypt(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
                 if(messageString!="")
                 {
                     TextBoxMessage.Text = messageString;
@@ -222,17 +224,27 @@ namespace WPF_Cipher_Nyss
             }
             else if (TextBoxKey.Text == "")
             {
+                TextBoxMessage.Text = "Please write the key";
+                TextBoxMessage.Visibility = Visibility.Visible;
                 TextBoxKey.Tag = "Please write the key";
             }
             else
             {
                 string messageString = "";
-                TextBoxFinal.Text = VigenereCalc.Decoding(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
+                TextBoxFinal.Text = VigenereCalc.Decrypt(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
                 if (messageString != "")
                 {
                     TextBoxMessage.Text = messageString;
                     TextBoxMessage.Visibility = Visibility.Visible;
                 }
+            }
+        }
+
+        private void TextBoxOriginal_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(TextBoxOriginal.Text=="")
+            {
+                TextBoxOriginal.Tag = "Please write text";
             }
         }
     }

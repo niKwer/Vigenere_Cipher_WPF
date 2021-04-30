@@ -8,7 +8,7 @@ namespace WPF_Cipher_Nyss
 {
     public class VigenereCalc
     {
-        public static string Coding(string str, string oldStringKey, ref string messageString)
+        public static string Encrypt(string str, string oldStringKey, ref string messageString)
         {
             string returnString = string.Empty, stringKey=string.Empty;
             string alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
@@ -19,10 +19,10 @@ namespace WPF_Cipher_Nyss
                 if(!alphabet.Contains(item)) { isKeyRu = false; }
                 else { stringKey += item; }
             }
-            if(!isKeyRu && string.IsNullOrEmpty(stringKey))
+            if(!isKeyRu && string.IsNullOrEmpty(stringKey) || oldStringKey == "")
             {
-                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. The text has not been changed.";
-                return str;
+                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. Please change the key.";
+                return "";
             }
             else if(!isKeyRu && !string.IsNullOrEmpty(stringKey))
             {
@@ -60,7 +60,7 @@ namespace WPF_Cipher_Nyss
             }
             return returnString;
         }
-        public static string Decoding(string str, string oldStringKey, ref string messageString)
+        public static string Decrypt(string str, string oldStringKey, ref string messageString)
         {
             string returnString = string.Empty, stringKey = string.Empty;
             string alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
@@ -72,10 +72,10 @@ namespace WPF_Cipher_Nyss
                 if (!alphabet.Contains(item)) { isKeyRu = false; }
                 else { stringKey += item; }
             }
-            if (!isKeyRu && string.IsNullOrEmpty(stringKey))
+            if ((!isKeyRu && string.IsNullOrEmpty(stringKey)) || oldStringKey == "")
             {
-                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. The text has not been changed.";
-                return str;
+                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. Please change the key.";
+                return "";
             }
             else if (!isKeyRu && !string.IsNullOrEmpty(stringKey))
             {

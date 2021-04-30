@@ -439,7 +439,7 @@
                          BorderBrush="Black"
                          BorderThickness="2"
                          AcceptsReturn="True" Height="230" VerticalAlignment="Top" Background="#FD92BEE2" Style="{DynamicResource MarkStyle}"
-                         Tag="Please write text" FontSize="14" FontFamily="Times New Roman"/>
+                         Tag="Please write text" FontSize="14" FontFamily="Times New Roman" TextChanged="TextBoxOriginal_TextChanged"/>
 
                 <TextBox x:Name="TextBoxFinal" 
                          Margin="0,257,0,34" 
