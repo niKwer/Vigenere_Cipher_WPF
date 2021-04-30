@@ -226,11 +226,11 @@
             </Setter>
         </Style>
         <!--#endregion-->
-
+        <!--#region Visual TextBox Style-->
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
         <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>
         <SolidColorBrush x:Key="TextBox.Focus.Border" Color="#FF569DE5"/>
-
+        <!--#endregion-->
         <!--#region Message TextBox Style-->
         <Style x:Key="MessageTBStyle" TargetType="{x:Type TextBox}">
             <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
@@ -333,6 +333,46 @@
                             </MultiTrigger>
                             <Trigger Property="IsEnabled" Value="False">
                                 <Setter Property="Foreground" Value="DimGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!--#endregion-->
+        
+        <!--#region Flags Button Style-->
+        <Style x:Key="FlagsBtnStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="Transparent"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="Transparent"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -469,7 +509,7 @@
             <!--textBox Message-->
             <TextBox x:Name="TextBoxMessage" 
                      HorizontalAlignment="Left" 
-                     Height="148"
+                     Height="105"
                      Margin="708,295,0,0" 
                      TextWrapping="Wrap" 
                      VerticalAlignment="Top"
@@ -481,6 +521,39 @@
                      FontFamily="Times New Roman"
                      Visibility="Collapsed"
                      IsReadOnly="True" Style="{DynamicResource MessageTBStyle}"/>
+            <Button x:Name="russianBtn" 
+                    Background="Transparent"
+                    BorderThickness="0"
+                    BorderBrush="Transparent"
+                    HorizontalAlignment="Left" 
+                    Margin="817,457,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="94" 
+                    Height="69" Click="russianBtn_Click" Style="{DynamicResource FlagsBtnStyle}">
+                <Image Source="/Assets/russian_flag.png"
+                       Stretch="None">
+                </Image>
+
+            </Button>
+            <Button x:Name="englishBtn" 
+                Background="Transparent"
+                BorderThickness="0"
+                BorderBrush="Transparent"
+                HorizontalAlignment="Left" 
+                Margin="817,457,0,0" 
+                VerticalAlignment="Top" 
+                Width="94" 
+                Height="69" 
+                Click="englishBtn_Click"
+                Visibility="Collapsed"
+                Style="{DynamicResource FlagsBtnStyle}">
+                <Image Source="/Assets/united-kingdom-flag.png"
+                       Stretch="None">
+
+                </Image>
+
+
+            </Button>
         </Grid>
 
     </Grid>

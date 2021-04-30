@@ -24,6 +24,7 @@ namespace WPF_Cipher_Nyss
     /// </summary>
     public partial class MainWindow : Window
     {
+        string selectedLanguage = "Russian";
         public MainWindow()
         {
             InitializeComponent();
@@ -102,7 +103,6 @@ namespace WPF_Cipher_Nyss
         private void OpenBtn_Click(object sender, RoutedEventArgs e)
         {
             TextBoxMessage.Visibility = Visibility.Collapsed;
-            
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.DefaultExt = ".txt";
             dlg.Filter = "Text files (*.txt)|*.txt|Docs file (*.docx)|*docx";
@@ -198,7 +198,7 @@ namespace WPF_Cipher_Nyss
             else
             {
                 string messageString = "";
-                TextBoxFinal.Text = VigenereCalc.Encrypt(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
+                TextBoxFinal.Text = VigenereCalc.Encrypt(TextBoxOriginal.Text, TextBoxKey.Text, selectedLanguage, ref messageString);
                 if(messageString!="")
                 {
                     TextBoxMessage.Text = messageString;
@@ -231,7 +231,7 @@ namespace WPF_Cipher_Nyss
             else
             {
                 string messageString = "";
-                TextBoxFinal.Text = VigenereCalc.Decrypt(TextBoxOriginal.Text, TextBoxKey.Text, ref messageString);
+                TextBoxFinal.Text = VigenereCalc.Decrypt(TextBoxOriginal.Text, TextBoxKey.Text, selectedLanguage, ref messageString);
                 if (messageString != "")
                 {
                     TextBoxMessage.Text = messageString;
@@ -246,6 +246,20 @@ namespace WPF_Cipher_Nyss
             {
                 TextBoxOriginal.Tag = "Please write text";
             }
+        }
+
+        private void englishBtn_Click(object sender, RoutedEventArgs e)
+        {
+            englishBtn.Visibility = Visibility.Collapsed;
+            russianBtn.Visibility = Visibility.Visible;
+            selectedLanguage = "Russian";
+        }
+
+        private void russianBtn_Click(object sender, RoutedEventArgs e)
+        {
+            russianBtn.Visibility = Visibility.Collapsed;
+            englishBtn.Visibility = Visibility.Visible;
+            selectedLanguage = "English";
         }
     }
 }

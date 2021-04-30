@@ -127,5 +127,11 @@
   <ItemGroup>
     <Resource Include="Assets\bill_cipher.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\russian_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\united-kingdom-flag.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

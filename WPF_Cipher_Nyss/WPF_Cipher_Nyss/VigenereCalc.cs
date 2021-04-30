@@ -8,10 +8,20 @@ namespace WPF_Cipher_Nyss
 {
     public class VigenereCalc
     {
-        public static string Encrypt(string str, string oldStringKey, ref string messageString)
+        public static string Encrypt(string str, string oldStringKey, string selectedLanguage, ref string messageString)
         {
-            string returnString = string.Empty, stringKey=string.Empty;
-            string alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            string returnString = string.Empty, stringKey=string.Empty, alphabet=string.Empty;
+            int alphabetCount=0;
+            if(selectedLanguage=="Russian")
+            {
+                alphabetCount = 33;
+                alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            }
+            else if( selectedLanguage=="English")
+            {
+                alphabetCount = 26;
+                alphabet = "abcdefghijklmnopqrstuvwxyz"; 
+            }
             int alpStr,alpKey,k=0;
             bool isKeyRu = true;
             foreach (var item in oldStringKey.ToLower())
@@ -21,18 +31,17 @@ namespace WPF_Cipher_Nyss
             }
             if(!isKeyRu && string.IsNullOrEmpty(stringKey) || oldStringKey == "")
             {
-                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. Please change the key.";
+                messageString = $"The key is incorrectly defined, it doesn't contain the letters of the {selectedLanguage} alphabet. Please change the key.";
                 return "";
             }
             else if(!isKeyRu && !string.IsNullOrEmpty(stringKey))
             {
-                messageString = "The key contains non-Russian characters. They weren't taken into account during the calculation.";
+                messageString = $"The key contains non-{selectedLanguage} characters. They weren't taken into account during the calculation.";
             }
 
             for (int i = 0; i < str.Length; i++)
             {
                 bool isRuLetter = false;
-
                 if (k >= stringKey.Length) { k = 0; };
                 for (alpStr = 0; alpStr < alphabet.Length; alpStr++)
                 {
@@ -53,17 +62,27 @@ namespace WPF_Cipher_Nyss
                     }
                     k++;
 
-                    if (alpStr + alpKey > 32) { returnString += alphabet[alpStr + alpKey - 33]; }
+                    if (alpStr + alpKey > alphabetCount-1) { returnString += alphabet[alpStr + alpKey - alphabetCount]; }
                     else { returnString += alphabet[alpStr + alpKey]; }
                 }
                 else { returnString += str[i]; }
             }
             return returnString;
         }
-        public static string Decrypt(string str, string oldStringKey, ref string messageString)
+        public static string Decrypt(string str, string oldStringKey, string selectedLanguage, ref string messageString)
         {
-            string returnString = string.Empty, stringKey = string.Empty;
-            string alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            string returnString = string.Empty, stringKey = string.Empty,alphabet=string.Empty;
+            int alphabetCount = 0;
+            if (selectedLanguage == "Russian")
+            {
+                alphabetCount = 33;
+                alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+            }
+            else if (selectedLanguage == "English")
+            {
+                alphabetCount = 26;
+                alphabet = "abcdefghijklmnopqrstuvwxyz";
+            }
             int alpStr, alpKey, k = 0;
             bool isKeyRu = true;
 
@@ -74,12 +93,12 @@ namespace WPF_Cipher_Nyss
             }
             if ((!isKeyRu && string.IsNullOrEmpty(stringKey)) || oldStringKey == "")
             {
-                messageString = "The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. Please change the key.";
+                messageString = $"The key is incorrectly defined, it doesn't contain the letters of the {selectedLanguage} alphabet. Please change the key.";
                 return "";
             }
             else if (!isKeyRu && !string.IsNullOrEmpty(stringKey))
             {
-                messageString = "The key contains non-Russian characters. They weren't taken into account during the calculation.";
+                messageString = $"The key contains non-{selectedLanguage} characters. They weren't taken into account during the calculation.";
             }
 
             for (int i = 0; i < str.Length; i++)
@@ -105,7 +124,7 @@ namespace WPF_Cipher_Nyss
                     }
                     k++;
 
-                    if (alpStr - alpKey < 0) { returnString += alphabet[alpStr - alpKey + 33]; }
+                    if (alpStr - alpKey < 0) { returnString += alphabet[alpStr - alpKey + alphabetCount]; }
                     else { returnString += alphabet[alpStr - alpKey]; }
                 }
                 else { returnString += str[i]; }

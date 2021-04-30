@@ -13,26 +13,28 @@ namespace WPF_Cipher_Nyss.Tests
             string testString = "поздравляю";
             string keyString = "скорпион";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "бщцфаирщри";
             
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
             Assert.AreEqual("", messageString);
         }
         [TestMethod]
-        public void EncryptText_RuText2()
+        public void EncryptText_EngText()
         {
             // arrange
-            string testString = "тестовое сообщение";
-            string keyString = "скорпион";
+            string testString = "hello world";
+            string keyString = "home";
             string messageString = "";
-            string expected = "дпагюкэт гщэсиньцц";
+            string selectedLanguage = "English";
+            string expected = "osxpv kavsr";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -40,16 +42,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void EncryptText_textWithSymbols()
+        public void EncryptText_RuTextWithSymbols()
         {
             // arrange
             string testString = "юё?*ъ312с: !№хй";
             string keyString = "скорпион";  
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "пр?*и312в: !№ет";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString,selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -57,16 +60,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void EncryptText_textWithNumbers()
+        public void EncryptText_EngTextWithSymbols()
         {
             // arrange
-            string testString = "бъг4вящ3654а865ч а432дар123й";
-            string keyString = "скорпион";
+            string testString = "snd134yv hxjy2(*$13k";
+            string keyString = "print";
             string messageString = "";
-            string expected = "тес4тов3654о865е с432ооб123щ";
+            string selectedLanguage = "English";
+            string expected = "hel134lo worl2(*$13d";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -80,10 +84,11 @@ namespace WPF_Cipher_Nyss.Tests
             string testString = "юёyuъсFхdQй";
             string keyString = "скорпион";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "прyuивFеdQт";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -96,10 +101,11 @@ namespace WPF_Cipher_Nyss.Tests
             string testString = "бщцфаирщри, бл ячъбиуъ щбюэсяёш гфуаа!!!";
             string keyString = "скорпион";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "поздравляю, ты получил исходный текст!!!";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -107,16 +113,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void DecryptText_RuText2()
+        public void DecryptText_EngText()
         {
             // arrange
-            string testString = "жпъьюь рьвцт";
-            string keyString = "скорпион";
+            string testString = "wvtyh";
+            string keyString = "print";
             string messageString = "";
-            string expected = "хеллоу ворлд";
+            string selectedLanguage = "English";
+            string expected = "hello";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -124,16 +131,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void DecryptText_WithSymbols()
+        public void DecryptText_RuWithSymbols()
         {
             // arrange
             string testString = "жп132ъ^%$ьюь рьв.*@#цт";
             string keyString = "скорпион";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "хе132л^%$лоу вор.*@#лд";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -141,16 +149,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void DecryptText_WithNumbersAndOtherAlphabet()
+        public void DecryptText_EngWithSymbols()
         {
             // arrange
-            string testString = "бычтфы, WORLD!!!=)";
-            string keyString = "скорпион";
+            string testString = "w123v(*ty1h";
+            string keyString = "print";
             string messageString = "";
-            string expected = "привет, WORLD!!!=)";
+            string selectedLanguage = "English";
+            string expected = "h123e(*ll1o";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -158,33 +167,50 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void key_EncryptText_Message()
+        public void key_RuEncryptText_Message()
         {
             // arrange
             string testString = "юёъсхй, WORLD!!!=)";
             string keyString = "ско72рпион43";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "привет, WORLD!!!=)";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
             Assert.AreEqual("The key contains non-Russian characters. They weren't taken into account during the calculation.", messageString);
         }
+        public void key_EngEncryptText_Message()
+        {
+            // arrange
+            string testString = "s123n(*dy1v";
+            string keyString = "p*r23i1nt";
+            string messageString = "";
+            string selectedLanguage = "English";
+            string expected = "h123e(*ll1o";
 
+            // act 
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+            Assert.AreEqual("The key contains non-English characters. They weren't taken into account during the calculation.", messageString);
+        }
         [TestMethod]
-        public void keyFailed_EncryptText_Message()
+        public void keyFailed_RuEncryptText_Message()
         {
             // arrange
             string testString = "юёъсхй, WORLD!!!=)";
             string keyString = "fail7243";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -192,16 +218,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void keyEmpty_EncryptText_Message()
+        public void keyEmpty_RuEncryptText_Message()
         {
             // arrange
             string testString = "юёъсхй, WORLD!!!=)";
             string keyString = "";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -209,16 +236,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void key_DecryptText_Message()
+        public void key_RuDecryptText_Message()
         {
             // arrange
             string testString = "бщцфаирщри";
             string keyString = "ско72рпион43";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "поздравляю";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -226,16 +254,17 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void keyFailed_DecryptText_Message()
+        public void keyFailed_RuDecryptText_Message()
         {
             // arrange
             string testString = "бщцфаирщри";
             string keyString = "fail7243";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "";
 
             // act 
-            string actual = VigenereCalc.Decrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Decrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
@@ -243,20 +272,37 @@ namespace WPF_Cipher_Nyss.Tests
         }
 
         [TestMethod]
-        public void keyEmpty_DecryptText_Message()
+        public void keyEmpty_RuDecryptText_Message()
         {
             // arrange
             string testString = "бщцфаирщри";
             string keyString = "";
             string messageString = "";
+            string selectedLanguage = "Russian";
             string expected = "";
 
             // act 
-            string actual = VigenereCalc.Encrypt(testString, keyString, ref messageString);
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
 
             // assert
             Assert.AreEqual(expected, actual);
             Assert.AreEqual("The key is incorrectly defined, it doesn't contain the letters of the Russian alphabet. Please change the key.", messageString);
+        }
+        public void keyEmpty_EngDecryptText_Message()
+        {
+            // arrange
+            string testString = "helloworld";
+            string keyString = "";
+            string messageString = "";
+            string selectedLanguage = "English";
+            string expected = "";
+
+            // act 
+            string actual = VigenereCalc.Encrypt(testString, keyString, selectedLanguage, ref messageString);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+            Assert.AreEqual("The key is incorrectly defined, it doesn't contain the letters of the English alphabet. Please change the key.", messageString);
         }
     }
 }
